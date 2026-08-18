@@ -1,5 +1,8 @@
 🚀 Plataforma de Gestão de Clientes (CRM)
 
+Acesso ao Desafio em:
+https://desafioaisolutionsexp.bbigelli.workers.dev/
+
 📋 Sobre o Projeto
 Plataforma web completa para gestão de clientes, desenvolvida como parte de um desafio técnico. O sistema oferece autenticação segura, CRUD completo de clientes e configurações de usuário, com foco em usabilidade e boas práticas de desenvolvimento.
 
