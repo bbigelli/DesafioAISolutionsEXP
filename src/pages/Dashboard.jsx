@@ -61,7 +61,7 @@ export function Dashboard() {
     <div>
       {/* Título */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-800">👋 Bem-vindo, {user?.user_metadata?.nome || user?.email}!</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Bem-vindo, {user?.user_metadata?.nome || user?.email}!</h2>
         <p className="text-gray-500">Aqui está o resumo da sua base de clientes.</p>
       </div>
 
@@ -76,7 +76,6 @@ export function Dashboard() {
                 <p className="text-gray-500 text-sm">Total de Clientes</p>
                 <p className="text-3xl font-bold text-gray-800">{stats.total}</p>
               </div>
-              <div className="text-4xl">👥</div>
             </div>
           </div>
 
@@ -86,7 +85,6 @@ export function Dashboard() {
                 <p className="text-gray-500 text-sm">Ativos</p>
                 <p className="text-3xl font-bold text-green-600">{stats.ativos}</p>
               </div>
-              <div className="text-4xl">✅</div>
             </div>
           </div>
 
@@ -96,7 +94,6 @@ export function Dashboard() {
                 <p className="text-gray-500 text-sm">Inativos</p>
                 <p className="text-3xl font-bold text-yellow-600">{stats.inativos}</p>
               </div>
-              <div className="text-4xl">⏸️</div>
             </div>
           </div>
 
@@ -106,7 +103,6 @@ export function Dashboard() {
                 <p className="text-gray-500 text-sm">Bloqueados</p>
                 <p className="text-3xl font-bold text-red-600">{stats.bloqueados}</p>
               </div>
-              <div className="text-4xl">🚫</div>
             </div>
           </div>
         </div>
